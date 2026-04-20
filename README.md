@@ -1,4 +1,4 @@
-# HydraSurveillance - Technical Specification
+# HydraSurveillance : Multiple Cameras at once
 
 A production-grade industrial surveillance system designed for round-the-clock security monitoring. HydraSurveillance processes 20+ RTSP camera streams simultaneously, detecting unauthorized intrusions during restricted hours and delivering real-time alerts with photographic evidence.
 
