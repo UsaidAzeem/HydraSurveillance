@@ -1,5 +1,21 @@
 # HydraSurveillance - Technical Specification
 
+A production-grade industrial surveillance system designed for round-the-clock security monitoring. HydraSurveillance processes 20+ RTSP camera streams simultaneously, detecting unauthorized intrusions during restricted hours and delivering real-time alerts with photographic evidence.
+
+**Key Capabilities**
+- Real-time person detection across 20+ camera feeds using YOLOv8n
+- Intelligent time-window filtering (10 PM - 6 AM active monitoring)
+- Automated snapshot capture with best-frame selection
+- Non-blocking alert pipeline (~45 second end-to-end)
+
+**Performance Summary**
+- Single camera: 4-9 FPS @ ~15% CPU
+- 20 cameras: 0.5-1 FPS @ ~95% CPU
+- Memory footprint: ~306 MB baseline
+- Network: 20-80 Mbps aggregate bandwidth
+
+---
+
 ## Hardware Requirements
 
 | Component | Minimum | Recommended |
