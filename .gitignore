@@ -1,0 +1,12 @@
+*.mp4
+*.avi
+*.mkv
+captures/
+__pycache__/
+*.pyc
+.env
+surveillance-env/
+.ipynb_checkpoints/
+*.pt
+!yolov8n.pt
+.DS_Store
